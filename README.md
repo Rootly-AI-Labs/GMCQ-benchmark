@@ -43,3 +43,17 @@ Choice D:
 ## Dataset Generation Method
 
 We took 82 GitHub closed issues with the bug label, along with the pull requests that closed the issue, from the Mastodon/Mastodon GitHub repository. 
+
+## Evaluation Results
+
+We obtained the following results on version 0.1 of GMCQ using the OpenAI/evals GitHub repository.
+
+| Model Name | Accuracy |
+| --- | --- | 
+| GPT-4o mini | 0.829 ± 0.042 |
+| Llama-3.1 8B-instant (Groq) | 0.341 ± 0.052 |
+| Llama-3.3 70B-versatile (Groq) | 0.720 ± 0.050 |
+| Llama-4 Scout (Groq) | 0.598 ± 0.053 |
+| Llama-4-Maverick (Groq) | 0.695 ± 0.051 |
+| Qwen-2.5-Coder-32B (Groq) | 0.902 ± 0.034 |
+| Qwen-2.5-32B (Groq) | 0.793 ± 0.044 |
