@@ -2,7 +2,7 @@
 
 **GitHub Multiple Choice Questions** (GMCQ) is a benchmark developed to evaluate a language model's ability to determine the pull request that closes a bug fix issue from a real-world GitHub repository.
 
-### Task Format
+## Task Format
 
 Given a GitHub issue title and description, without any additional context, the model must determine the correct pull request that closed the issue.
 
@@ -40,6 +40,6 @@ Choice D:
 
 ```
 
-### Dataset Generation Method
+## Dataset Generation Method
 
 We took 82 GitHub closed issues with the bug label, along with the pull requests that closed the issue, from the Mastodon/Mastodon GitHub repository. 
