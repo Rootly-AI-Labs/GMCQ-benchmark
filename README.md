@@ -1,6 +1,8 @@
-# GMCQ-benchmark
 
-**GitHub Multiple Choice Questions** (GMCQ) is a benchmark developed to evaluate a language model's ability to determine the pull request that closes a bug fix issue from a real-world GitHub repository.
+# GMCQ-benchmark 🧪
+GitHub Multiple Choice Questions (GMCQ) is a benchmark developed by the [Rootly AI Labs](https://labs.rootly.ai/) to evaluate a language model's ability to determine the pull request that closes a bug fix issue from a real-world GitHub repository.
+
+We took 100 closed issues with the bug label from the Mastodon Github repository, along with the pull requests that closed the issue. 
 
 ## Task Format
 
@@ -40,10 +42,6 @@ Choice D:
 
 ```
 
-## Dataset Generation Method
-
-We took 82 GitHub closed issues with the bug label, along with the pull requests that closed the issue, from the Mastodon/Mastodon GitHub repository. 
-
 ## Evaluation Results
 
 We obtained the following results on version 0.1 of GMCQ using the OpenAI/evals GitHub repository.
@@ -57,3 +55,7 @@ We obtained the following results on version 0.1 of GMCQ using the OpenAI/evals 
 | Llama-4-Maverick (Groq) | 0.695 ± 0.051 |
 | Qwen-2.5-Coder-32B (Groq) | 0.902 ± 0.034 |
 | Qwen-2.5-32B (Groq) | 0.793 ± 0.044 |
+
+## About the Rootly AI Labs
+This project was developed by the [Rootly AI Labs](https://labs.rootly.ai/). The AI Labs is building the future of system reliability and operational excellence. We operate as an open-source incubator, sharing ideas, experimenting, and rapidly prototyping. We're committed to ensuring our research benefits the entire community.
+![Rootly AI logo](https://github.com/Rootly-AI-Labs/EventOrOutage/raw/main/rootly-ai.png)
