@@ -49,12 +49,19 @@ We obtained the following results on version 0.1 of GMCQ using the OpenAI/evals 
 | Model Name | Accuracy |
 | --- | --- | 
 | GPT-4o mini | 0.829 ± 0.042 |
+| GPT-4o | 0.866 ± 0.039 |
+| GPT-4.1 | 0.841 ± 0.039 |
+| o3-mini | 0.817 ± 0.043 |
+| o4-mini | 0.927 ± 0.027 |
 | Llama-3.1 8B-instant (Groq) | 0.341 ± 0.052 |
 | Llama-3.3 70B-versatile (Groq) | 0.720 ± 0.050 |
 | Llama-4 Scout (Groq) | 0.598 ± 0.053 |
 | Llama-4-Maverick (Groq) | 0.695 ± 0.051 |
 | Qwen-2.5-Coder-32B (Groq) | 0.902 ± 0.034 |
 | Qwen-2.5-32B (Groq) | 0.793 ± 0.044 |
+| Gemini-2.0-Flash (Google) | 0.841 ± 0.042 |
+| DeepSeek V3.1 (0324) (Together AI) | 0.756 ± 0.049 |
+| Claude 3.5 Sonnet | 0.780 ± 0.048 |
 
 ## About the Rootly AI Labs
 This project was developed by the [Rootly AI Labs](https://labs.rootly.ai/). The AI Labs is building the future of system reliability and operational excellence. We operate as an open-source incubator, sharing ideas, experimenting, and rapidly prototyping. We're committed to ensuring our research benefits the entire community.
