@@ -57,8 +57,11 @@ We obtained the following results on version 0.1 of GMCQ using the OpenAI/evals 
 | ----------------------------------- | --------------- |
 | o4-mini                             | 0.927 ± 0.029   |
 | o3                                  | 0.915 ± 0.032   |
+| grok-3-beta                         | 0.915 ± 0.032   |
 | Qwen-2.5-Coder-32B (Groq)           | 0.902 ± 0.034   |
+| grok-3-mini-beta                    | 0.902 ± 0.032   |
 | o3-mini                             | 0.893 ± 0.034   |
+| Gemini-2.5-Flash (Google)           | 0.878 ± 0.036   |
 | GPT-4o                              | 0.866 ± 0.039   |
 | GPT-4.1                             | 0.841 ± 0.039   |
 | Gemini-2.0-Flash (Google)           | 0.841 ± 0.042   |
