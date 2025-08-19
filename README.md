@@ -2,13 +2,13 @@
 # GMCQ-benchmark 🧪
 GitHub Multiple Choice Questions (GMCQ) is a benchmark developed by the [Rootly AI Labs](https://labs.rootly.ai/) to evaluate a language model's ability to determine the pull request that closes a bug fix issue from a real-world GitHub repository.
 
-We took 100 closed issues with the bug label from the Mastodon Github repository, along with the pull requests that closed the issue. 
+We took closed issues with the bug label from leading open-source GitHub repositories, along with the pull requests that closed the issue. 
 
 ## Benchmarking Methodology
 
-To measure performance, Rootly AI Labs fellow Laurence Liang developed a Multiple Choice Questions benchmark leveraging Mastodon’s public GitHub repository. Here is our methodology:
+To measure performance, Rootly AI Labs fellow Laurence Liang developed a Multiple Choice Questions benchmark leveraging leading open-source public GitHub repositories. Here is our methodology:
 
--   We sourced 100 issues labeled "bug" from the Mastodon GitHub repository.
+-   We sourced issues labeled "bug" from the leading open-source GitHub repositories.
 -   For each issue, we collected the description and the associated pull request (PR) that solved it.
 -   For benchmarking, we fed models each bug description and 4 PRs to choose from as the answer, with one of them being the PR that solved the issue—no codebase context was included.
 
